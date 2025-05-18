@@ -13,6 +13,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -21,7 +22,7 @@ body {
     color: #333;
     background-color: #f9f9f9;
     z-index: 1;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
 }
 
 a {
@@ -51,7 +52,13 @@ img {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
+    animation: highlight 1.5s ease-in-out;
+}
+
+@keyframes highlight {
+  from { background-color: rgba(75, 0, 130, 0.3); }
+  to { background-color: transparent; }
 }
 
 .btn:hover {
