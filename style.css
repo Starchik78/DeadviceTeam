@@ -19,29 +19,6 @@
     scroll-behavior: smooth;
 }
 
-.image-with-gradient {
-  position: relative;
-  display: inline-block; 
-}
-
-.image-with-gradient img {
-  display: block;
-  width: 100vw;
-  height: auto;
-}
-
-.gradient-overlay {
-  position: relative;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100px;
-  background: linear-gradient(to bottom, 
-              transparent 0%, 
-              #4b0082 70%, 
-              white 100%);
-}
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -104,7 +81,7 @@ header {
     z-index: 100;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     width: 100vw;
-    height: 10vh;
+    height: 7vh;
 }
 
 header .container {
