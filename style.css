@@ -20,6 +20,7 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #f9f9f9;
+    z-index: 1;
 }
 
 a {
@@ -100,7 +101,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #4b0082;
+    color: #f9f9f9;
     font-weight: 500;
     transition: color 0.3s ease;
 }
