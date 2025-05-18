@@ -306,7 +306,6 @@ table tr:hover {
     resize: vertical;
 }
 
-/* Подвал */
 footer {
     background: var(--dark-color);
     color: #fff;
@@ -316,6 +315,7 @@ footer {
 
 footer p {
     margin-bottom: 10px;
+    color: white;
 }
 
 .footer-links a {
@@ -328,7 +328,6 @@ footer p {
     color: var(--primary-color);
 }
 
-/* Адаптивность */
 @media (max-width: 768px) {
     header .container {
         flex-direction: column;
