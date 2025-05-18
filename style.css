@@ -55,8 +55,7 @@ img {
 }
 
 .btn:hover {
-    background: #e64a19;
-    transition: all 0.3s ease;
+    background: #4b0082;
     transform: translateY(-3px);
 }
 
