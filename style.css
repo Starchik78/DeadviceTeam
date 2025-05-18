@@ -61,13 +61,16 @@ ul {
 }
 
 img {
-    width: 100%;
+    width: 100vw;
 }
 
 .container {
     max-width: 1200px;
     margin: auto;
     padding: 0 20px;
+    position: relative;
+    z-index: 2;
+    padding: 40px 20px;
 }
 
 .btn {
@@ -100,7 +103,7 @@ header {
     top: 0;
     z-index: 100;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
+    width: 100vw;
 }
 
 header .container {
