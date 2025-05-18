@@ -65,7 +65,7 @@ img {
 }
 
 .btn:hover {
-    background: #4b0082;
+    scale: 1.1;
     transform: translateY(-3px);
 }
 
@@ -117,7 +117,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #f4f4f4;
+    color: #4b0082;
 }
 
 .hero {
