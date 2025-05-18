@@ -9,6 +9,15 @@
     --warning-color: #ffc107;
 }
 
+a:hover,
+nav ul li a:hover,
+.social a:hover,
+.social-links a:hover,
+.footer-links a:hover,
+.btn:hover {
+    color: #4b0082 !important;
+}
+
 * {
     margin: 0;
     padding: 0;
