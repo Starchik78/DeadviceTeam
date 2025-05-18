@@ -103,9 +103,7 @@ header .container {
 nav ul {
     display: flex;
 }
-.sost {
-    color: white;
-}
+
 nav ul li {
     margin-left: 20px;
 }
