@@ -8,6 +8,9 @@
     --danger-color: #f44336;
     --warning-color: #ffc107;
 }
+.fi {
+    color: #4b0082;
+}
 
 * {
     margin: 0;
@@ -114,7 +117,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #4b0082;
+    color: #f4f4f4;
 }
 
 .hero {
