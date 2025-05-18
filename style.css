@@ -24,7 +24,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #4b0082;
+    color: #f9f9f9;
 }
 
 ul {
@@ -132,7 +132,7 @@ nav ul li a:hover {
 /* Состав команды */
 .team-section {
     padding: 80px 0;
-    background: #4b0082;
+    background: #f9f9f9;
 }
 
 .team-section h2 {
