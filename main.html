@@ -9,30 +9,23 @@
 </head>
 <body>
     <header>
-        <div class="container">
             <div class="logo">
                 <img src="Team.jpg" alt="Team Logo">
                 <h1>Deadvice Team</h1>
             </div>
-            <nav>
-                <ul>
-                    <li class="fi"><a href="#home">Главная</a></li>
-                    <li><a href="#team">Состав</a></li>
-                </ul>
-            </nav>
-        </div>
     </header>
     
     <section id="home" class="hero">
-  <div class="hero-background"></div>
-  <div class="container">
-    <h2>Добро пожаловать на официальный сайт команды Deadvice Team</h2>
-    <p>Команда по Dota 2</p>
-  </div>
-</section>
+        <div class="hero-background"></div>
+            <div class="container">
+                <h2>Добро пожаловать на официальный сайт команды Deadvice Team</h2>
+                <p>Команда по Dota 2</p>
+                <a class="btn" href="#team">Узнать состав</a></li>
+            </div>
+    </section>
 
-    <section id="team" class="team-section">
-        <div class="container">
+    <section class="team-section">
+        <div  id="team" class="container">
             <h2>Наш состав</h2>
             <div class="team-grid">
                 <div class="player">
@@ -89,11 +82,28 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Deadvice Team.</p>
-            <div class="fi" class="footer-links">
+            <p>&copy; 2025 Deadvice Team. Все права защищены.</p>
                 <p>Где нас можно найти: </p><a href="https://vk.com/ddvcteam"><i class="fab fa-vk"></i></a></p>
-            </div>
         </div>
     </footer>
+<script>
+    const backToTopButton = document.createElement('div');
+    backToTopButton.className = 'back-to-top';
+    backToTopButton.innerHTML = '<i class="fas fa-arrow-up"></i>';
+    document.body.appendChild(backToTopButton);
+
+    window.addEventListener('scroll', function() {
+        if (window.pageYOffset > 300) {
+            backToTopButton.classList.add('active');
+        } else {
+            backToTopButton.classList.remove('active');
+        }
+    });
+
+    backToTopButton.addEventListener('click', function(e) {
+        e.preventDefault();
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    });
+</script>
 </body>
 </html>
