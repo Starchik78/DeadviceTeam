@@ -6,6 +6,7 @@
     <title>Deadvice Team - Команда по Dota 2</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -28,61 +29,94 @@
         <div  id="team" class="container">
             <h2>Наш состав</h2>
             <div class="team-grid">
-                <div class="player">
-                    <img src="levakanta.jpg" alt="Player 1">
-                    <h3>levakanta</h3>
-                    <p>Позиция: Carry</p>
-                    <div class="social">
-                        <a href="https://steamcommunity.com/profiles/76561199586992403/"><i class="fab fa-steam"></i></a>
-                    </div>
+                <div class="player" data-steamid="76561199586992403" style="--hero-image: url('heroes/')">
+                    <img src="levakanta.jpg" alt="Player 1" class="player-avatar">
+                    <h3>
+                        <a href="https://steamcommunity.com/profiles/76561199586992403/" class="steam-link">
+                            <i class="fab fa-steam"></i> levakanta
+                        </a>
+                    </h3>
+                     <p>Позиция: Carry</p>
+                    <p class="main-hero">Main hero: <span class="hero-name">Anti-Mage</span></p>
+                    <p class="rank">Rank: <span class="rank-value">Guardian</span></p>
                 </div>
-                <div class="player">
-                    <img src="Egvin.jpg" alt="Player 2">
-                    <h3>Egvin</h3>
-                    <p>Позиция: Mid</p>
-                    <div class="social">
-                        <a href="https://steamcommunity.com/profiles/76561199375629448/"><i class="fab fa-steam"></i></a>
-                    </div>
+
+
+                <div class="player" data-steamid="76561199375629448" style="--hero-image: url('heroes/Stanok.jpg')">
+                    <img src="Egvin.jpg" alt="Player 2" class="player-avatar">
+                    <h3>
+                        <a href="https://steamcommunity.com/profiles/76561199375629448/" class="steam-link">
+                            <i class="fab fa-steam"></i> Egvin
+                        </a>
+                    </h3>
+                     <p>Позиция: Mid</p>
+                    <p class="main-hero">Main hero: <span class="hero-name">milling machine</span></p>
+                    <p class="rank">Rank: <span class="rank-value"></span></p>
                 </div>
-                <div class="player">
-                    <img src="3pos.jpg" alt="Player 3">
-                    <h3>demonangel</h3>
-                    <p>Позиция: Offlane</p>
-                    <div class="social">
-                        <a href="https://steamcommunity.com/profiles/76561199068698336/"><i class="fab fa-steam"></i></a>
-                    </div>
+
+
+                <div class="player" data-steamid="76561199068698336" style="--hero-image: url('heroes/')">
+                    <img src="3pos.jpg" alt="Player 3" class="player-avatar">
+                    <h3>
+                        <a href="https://steamcommunity.com/profiles/76561199068698336/" class="steam-link">
+                            <i class="fab fa-steam"></i> demonangel
+                        </a>
+                    </h3>
+                     <p>Позиция: Offlane</p>
+                    <p class="main-hero">Main hero: <span class="hero-name"></span></p>
+                    <p class="rank">Rank: <span class="rank-value"></span></p>
                 </div>
-                <div class="player">
-                    <img src="-XyL1gaNka_.jpg" alt="Player 4">
-                    <h3>mfzy</h3>
-                    <p>Позиция: Support</p>
-                    <div class="social">
-                        <a href="https://steamcommunity.com/profiles/76561199108462912/"><i class="fab fa-steam"></i></a>
-                    </div>
+
+
+                <div class="player" data-steamid="76561199108462912" style="--hero-image: url('heroes/')">
+                    <img src="-XyL1gaNka_.jpg" alt="Player 4" class="player-avatar">
+                    <h3>
+                        <a href="https://steamcommunity.com/profiles/76561199108462912/" class="steam-link">
+                            <i class="fab fa-steam"></i> mfzy
+                        </a>
+                    </h3>
+                     <p>Позиция: Support</p>
+                    <p class="main-hero">Main hero: <span class="hero-name"></span></p>
+                    <p class="rank">Rank: <span class="rank-value"></span></p>
                 </div>
-                <div class="player">
-                    <img src="Star.jpg" alt="Player 5">
-                    <h3>Star</h3>
-                    <p>Позиция: Hard Support</p>
-                    <div class="social">
-                        <a href="https://steamcommunity.com/profiles/76561199305727503/"><i class="fab fa-steam"></i></a>
-                    </div>
+
+
+                <div class="player" data-steamid="76561199305727503" style="--hero-image: url('heroes/')">
+                    <img src="Star.jpg" alt="Player 5" class="player-avatar">
+                    <h3>
+                        <a href="https://steamcommunity.com/profiles/76561199305727503/" class="steam-link">
+                            <i class="fab fa-steam"></i> Star
+                        </a>
+                    </h3>
+                     <p>Позиция: Hard Support</p>
+                    <p class="main-hero">Main hero: <span class="hero-name"></span></p>
+                    <p class="rank">Rank: <span class="rank-value"></span></p>
                 </div>
-                <div class="player">
-                    <img src="eZkraykEz.jpg" alt="Player 6">
-                    <h3>eZkraykEz</h3>
-                    <p>Позиция: Hard Support - Carry</p>
-                    <div class="social">
-                        <a href="https://steamcommunity.com/profiles/76561199200321565/"><i class="fab fa-steam"></i></a>
-                    </div>
+
+
+                <div class="player" data-steamid="76561199200321565" style="--hero-image: url('heroes/')">
+                    <img src="eZkraykEz.jpg" alt="Player 6" class="player-avatar">
+                    <h3>
+                        <a href="https://steamcommunity.com/profiles/76561199200321565/" class="steam-link">
+                            <i class="fab fa-steam"></i> eZkraykEz
+                        </a>
+                    </h3>
+                     <p>Позиция: Hard Support - Carry</p>
+                    <p class="main-hero">Main hero: <span class="hero-name"></span></p>
+                    <p class="rank">Rank: <span class="rank-value"></span></p>
                 </div>
-                <div class="player">
-                    <img src="YungGosha.jpg" alt="Player 7">
-                    <h3>YUNGGOSHA</h3>
-                    <p>Позиция: Mid</p>
-                    <div class="social">
-                        <a href="https://steamcommunity.com/profiles/76561199192491063/"><i class="fab fa-steam"></i></a>
-                    </div>
+
+
+                <div class="player" data-steamid="76561199192491063" style="--hero-image: url('heroes/')">
+                    <img src="YungGosha.jpg" alt="Player 7" class="player-avatar">
+                    <h3>
+                        <a href="https://steamcommunity.com/profiles/76561199192491063/" class="steam-link">
+                            <i class="fab fa-steam"></i> YUNGGOSHA
+                        </a>
+                    </h3>
+                     <p>Позиция: Mid</p>
+                    <p class="main-hero">Main hero: <span class="hero-name"></span></p>
+                    <p class="rank">Rank: <span class="rank-value"></span></p>
                 </div>
             </div>
         </div>
@@ -94,24 +128,5 @@
                 <p>Где нас можно найти: </p><a href="https://vk.com/ddvcteam"><i class="fab fa-vk"></i></a></p>
         </div>
     </footer>
-<script>
-    const backToTopButton = document.createElement('div');
-    backToTopButton.className = 'back-to-top';
-    backToTopButton.innerHTML = '<i class="fas fa-arrow-up"></i>';
-    document.body.appendChild(backToTopButton);
-
-    window.addEventListener('scroll', function() {
-        if (window.pageYOffset > 300) {
-            backToTopButton.classList.add('active');
-        } else {
-            backToTopButton.classList.remove('active');
-        }
-    });
-
-    backToTopButton.addEventListener('click', function(e) {
-        e.preventDefault();
-        window.scrollTo({top: 0, behavior: 'smooth'});
-    });
-</script>
 </body>
 </html>
